@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <title>MARAVILLA</title>
+    <meta charset="utf-8" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/782fb83cae.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body class="no-margen-mobile">
+    <!-- CURSOR -->
+    <div class="cursor">
+      <div class="cursor__ball cursor-ball-big">
+        <svg height="30" width="30">
+          <circle cx="13" cy="13" r="8" stroke-width="0"></circle>
+        </svg>
+      </div>
+    </div>
+    
+    <!-- FIN CURSOR -->
+
+    <header class="encabezado2">
+      <h1><a class="maravilla hoverable" href="sobreelproyecto.html">MARAVILLA</a></h1>
+      <div class="menu2" id="menu">
+        <nav class="menu" id="menu2">
+          <ul>
+            <li>
+              <a class="hoverable" id="menu_sobreelproyecto" href="sobreelproyecto.html"
+                ><p>sobre el proyecto</p></a
+              >
+            </li>
+            <li>
+              <a class="hoverable" id="menu_tipografiamaravilla" href="tipografiamaravilla.html"
+                ><p>tipografía maravilla</p></a
+              >
+            </li>
+            <li>
+              <a class="hoverable" id="menu_elementosgraficos"  href="elementosgraficos.html"><p>elementos gráficos</p></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div onclick="openCloseMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <h2>
+        <a class="contacto contacto-active hoverable" href="contacto.html" id="contacto2">contacto</a>
+      </h2>
+    </header>
+
+    <div id="contacto">
+      <div class="texto">
+        <p>
+          Soy Lucía Liaño, estudiante de último curso de Diseño Multimedia y
+          Gráfico en ESNE, Madrid. Desde el comienzo de la carrera estuve
+          interesada en el mundo de la tipografía y como experimentar con ella.
+          Este trabajo resume muchas de las cosas aprendidas a lo largo de la
+          carrera que me han llevado a ser lo que soy hoy en día como
+          diseñadora.
+        </p>
+      </div>
+      <div class="links">
+        <div class="email">
+          <p>Mi contacto</p>
+          <footer>
+            <a href="mailto:lucialiano1@gmail.com" target="_blank" class="hoverable"
+              >lucialiano1@gmail.com</a
+            >
+          </footer>
+        </div>
+        <div class="redessociales">
+          <p>Redes sociales</p>
+          <a href="https://www.behance.net/lucal4" target="_blank"
+            ><i class="fa-brands fa-square-behance fa-2xl hoverable"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/lucialmarin.design/"
+            target="_blank"
+            ><i class="fa-brands fa-square-instagram fa-2xl hoverable"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/luc%C3%ADalia%C3%B1omar%C3%ADn/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-2xl hoverable"></i
+          ></a>
+        </div>
+      </div>
+      <div class="fotocontacto">
+        <img src="img/malasana5.jpg" alt="Calle de Manuela Malasaña, 3" />
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/my_jQuery.js"></script>
+    
+
+  </body>
+</html>
